@@ -14,8 +14,10 @@ public class EnglishScore implements Comparable<EnglishScore>{
 	}
 
 	@Override
-	public int compareTo(EnglishScore o) { //Comparable interface°¡ °®°íÀÖ´Â Ãß»ó¸Ş¼­µå ÀÌ¹Ç·Î ¿À¹ö¶óÀÌµå ÇØÁÖ¾î¾ß ÇÑ´Ù. 
-		return this.score - o.score; // ÇöÀç °´Ã¼°¡ ´õ ÀÛÀ¸¸é À½¼ö, ´õ Å©¸é ¾ç¼ö¸¦ °°À¸¸é 0À» return.
+	//Comparable interfaceê°€ ê°–ê³ ìˆëŠ” ì¶”ìƒë©”ì„œë“œ ì´ë¯€ë¡œ ì˜¤ë²„ë¼ì´ë“œ í•´ì£¼ì–´ì•¼ í•œë‹¤. 
+	public int compareTo(EnglishScore o) { 
+		 // í˜„ì¬ ê°ì²´ê°€ ë” ì‘ìœ¼ë©´ ìŒìˆ˜, ë” í¬ë©´ ì–‘ìˆ˜ë¥¼ ê°™ìœ¼ë©´ 0ì„ return.
+		return this.score - o.score;
 	}
 	
 }
