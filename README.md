@@ -1,2 +1,2 @@
 # JAVA_LECTURE
-learned Java
+Learned Java
